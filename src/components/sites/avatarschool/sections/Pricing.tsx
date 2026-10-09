@@ -132,7 +132,7 @@ export function Pricing() {
             </ul>
             {" "}
             <div className="idcard__foot">
-              <a className="btn btn--cream btn--block" data-checkout="starter" data-currency="BRL" data-value="19.90" href="https://pay.hub.la/Wm6Sv7UUcEAWPKailAta">
+              <a className="btn btn--cream btn--block" data-checkout="starter" data-currency="BRL" data-value="19.90" href="https://go.pepperpay.com.br/3o0dk">
                 Quero o Starter por R$ 19,90
                 {" "}
                 <span className="arrow">→</span>
@@ -300,7 +300,7 @@ export function Pricing() {
             </ul>
             {" "}
             <div className="idcard__foot">
-              <a className="btn btn-shine btn--block" data-checkout="pro" data-currency="BRL" data-value="29.90" href="https://pay.hub.la/0fQLs3CKfHeDAkAeMNgA">
+              <a className="btn btn-shine btn--block" data-checkout="pro" data-currency="BRL" data-value="29.90" href="https://go.pepperpay.com.br/ty2cr">
                 Quero o Pro por R$ 29,90
                 {" "}
                 <span className="arrow">→</span>

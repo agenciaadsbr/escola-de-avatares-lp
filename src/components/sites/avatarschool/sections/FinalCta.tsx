@@ -86,7 +86,7 @@ export function FinalCta() {
               <span className="arrow">→</span>
             </a>
             {" "}
-            <a className="link-arrow" data-checkout="pro" data-currency="BRL" data-value="29.90" href="https://pay.hub.la/0fQLs3CKfHeDAkAeMNgA">Ou vá com tudo no Pro</a>
+            <a className="link-arrow" data-checkout="pro" data-currency="BRL" data-value="29.90" href="https://go.pepperpay.com.br/ty2cr">Ou vá com tudo no Pro</a>
           </div>
           {" "}
           <div className="micro">
