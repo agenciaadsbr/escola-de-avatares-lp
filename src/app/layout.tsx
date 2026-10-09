@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 
 import "@/components/sites/avatarschool/avatarschool.css";
+import { MetaPixel } from "@/components/sites/avatarschool/MetaPixel";
 
 const description =
   "Crie vídeos virais ultrarrealistas com IA. Aprenda o método dos personagens de IA super-realistas: as ferramentas secretas de IA por trás desses vídeos, reveladas passo a passo. A partir de R$ 19,90.";
@@ -59,7 +60,10 @@ export default function RootLayout({
         <link rel="preload" href="/sites/avatarschool/fonts/fraunces-normal-latin.woff2" as="font" type="font/woff2" crossOrigin="" />
         <link rel="preload" href="/sites/avatarschool/fonts/dmsans-normal-latin.woff2" as="font" type="font/woff2" crossOrigin="" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <MetaPixel />
+      </body>
     </html>
   );
 }
